@@ -1,6 +1,6 @@
 # Advanced Virtual Spawners
 
-[English](README.en.md) · [Проверки](VALIDATION.md) · [Аудит 1.0.0](AUDIT.md) · [Публикация на GitHub](GITHUB_RELEASE.md)
+[English](README.en.md) · [Проверки](VALIDATION.md) · [Аудит 1.0.0](AUDIT.md)
 
 Forge-аддон для Minecraft 1.12.2 и Enigmatica 2: Expert 1.93a. Обрабатывает мобов из флаконов Ender IO без добавления живых сущностей в мир. Добычу можно забирать из окна спавнера или через предметный интерфейс Forge.
 
