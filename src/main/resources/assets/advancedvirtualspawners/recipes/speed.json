@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RCR",
+    "CEC",
+    "RCR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "C": {
+      "item": "enderio:item_basic_capacitor",
+      "data": 1
+    },
+    "E": {
+      "item": "enderio:item_extract_speed_upgrade",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "advancedvirtualspawners:speed"
+  }
+}

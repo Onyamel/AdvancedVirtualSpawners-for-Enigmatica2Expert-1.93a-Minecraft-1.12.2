@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "CSC",
+    "PCP"
+  ],
+  "key": {
+    "P": {
+      "item": "draconicevolution:awakened_core"
+    },
+    "C": {
+      "item": "draconicevolution:chaotic_core"
+    },
+    "S": {
+      "item": "draconicevolution:draconic_spawner",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "advancedvirtualspawners:spawner_4"
+  }
+}

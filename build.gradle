@@ -1,0 +1,47 @@
+buildscript {
+    repositories {
+        maven { url = 'https://maven.minecraftforge.net/' }
+        mavenCentral()
+        maven { url = 'https://repo.spongepowered.org/maven' }
+    }
+    dependencies { classpath 'net.minecraftforge.gradle:ForgeGradle:2.3.10' }
+}
+apply plugin: 'net.minecraftforge.gradle.forge'
+
+group = 'ru.e2e.avs'
+version = '1.1.0'
+sourceCompatibility = targetCompatibility = '1.8'
+tasks.withType(JavaCompile) { options.encoding = 'UTF-8' }
+
+minecraft {
+    version = '1.12.2-14.23.5.2847'
+    mappings = 'stable_39'
+    runDir = 'run'
+    makeObfSourceJar = false
+}
+
+def pack = file(findProperty('e2eDir') ?: '../Enigmatica 2- Expert - E2E/minecraft')
+def integration = fileTree(new File(pack, 'mods')) {
+    include 'EnderIO-1.12.2-5.3.72.jar', 'EnderCore-1.12.2-0.5.78.jar', 'RedstoneFlux-1.12-2.1.1.1-universal.jar'
+}
+dependencies {
+    compileOnly integration
+    testCompile integration
+    testCompile fileTree(new File(pack, 'mods')) {
+        include 'appliedenergistics2-rv6-stable-7.jar', 'ThermalDynamics-1.12.2-2.5.6.1-universal.jar'
+    }
+}
+compileJava.doFirst {
+    if (integration.files.size() != 3) throw new GradleException('Укажите -Pe2eDir=путь_к_minecraft_сборки')
+}
+jar { manifest { attributes 'FMLAT': 'avs_at.cfg' } }
+task regression(type: JavaExec, dependsOn: testClasses) {
+    main = 'ru.e2e.avs.Regression'
+    classpath = sourceSets.test.runtimeClasspath
+}
+check.dependsOn regression
+task runtimeJar(type: Jar, dependsOn: testClasses) {
+    from sourceSets.test.output
+    classifier = 'runtime-checks'
+}
+reobf { runtimeJar { classpath = sourceSets.main.output + sourceSets.test.compileClasspath } }

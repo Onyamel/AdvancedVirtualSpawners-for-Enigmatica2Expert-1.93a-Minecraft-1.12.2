@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OWO",
+    "PSP",
+    "PPP"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "W": {
+      "item": "minecraft:skull",
+      "data": 1
+    },
+    "S": {
+      "item": "minecraft:soul_sand"
+    },
+    "P": {
+      "item": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "item": "advancedvirtualspawners:beheading"
+  }
+}

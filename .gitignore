@@ -1,0 +1,6 @@
+.gradle/
+build/
+run/
+run-e2e/
+run-e2e-server/
+run-e2e-server-core/

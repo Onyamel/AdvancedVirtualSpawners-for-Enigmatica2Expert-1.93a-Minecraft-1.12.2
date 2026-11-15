@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CPC",
+    "NES",
+    "CZC"
+  ],
+  "key": {
+    "C": {
+      "item": "enderio:item_material",
+      "data": 18
+    },
+    "E": {
+      "item": "enderio:block_powered_spawner",
+      "data": 0
+    },
+    "P": {
+      "type": "advancedvirtualspawners:soul_vial",
+      "entity": "minecraft:spider"
+    },
+    "Z": {
+      "type": "advancedvirtualspawners:soul_vial",
+      "entity": "minecraft:zombie"
+    },
+    "S": {
+      "type": "advancedvirtualspawners:soul_vial",
+      "entity": "minecraft:skeleton"
+    },
+    "N": {
+      "type": "advancedvirtualspawners:soul_vial",
+      "entity": "minecraft:enderman"
+    }
+  },
+  "result": {
+    "item": "advancedvirtualspawners:spawner_1"
+  }
+}

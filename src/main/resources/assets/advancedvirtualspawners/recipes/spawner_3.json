@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    "CSC",
+    "PCP"
+  ],
+  "key": {
+    "P": {
+      "item": "draconicevolution:wyvern_core"
+    },
+    "C": {
+      "item": "draconicevolution:awakened_core"
+    },
+    "S": {
+      "item": "draconicevolution:draconic_spawner",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "advancedvirtualspawners:spawner_3"
+  }
+}
