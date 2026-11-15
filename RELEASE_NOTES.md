@@ -22,4 +22,4 @@ Compatibility with AE2 Expert 3.0.0 was verified on a dedicated E2E server. Expe
 
 Replace the previous JAR in `mods` with `advancedvirtualspawners-1.1.0.jar`. The repository files `README.en.md` and `VALIDATION.en.md` describe gameplay and test coverage. `AUDIT.en.md` preserves the 1.0.0 audit findings.
 
-**Special thanks to @Danzalex-Alex** for shaping the original idea, contributing to its implementation, and inspiring the project.
+**Special thanks to [@Danzalex-Alex](https://github.com/Danzalex-Alex) for shaping the original idea, contributing to its implementation, and inspiring the project.
