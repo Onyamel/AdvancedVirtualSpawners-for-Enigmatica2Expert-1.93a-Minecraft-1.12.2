@@ -1,6 +1,6 @@
 # Advanced Virtual Spawners
 
-[Русская версия](README.md) · [Validation](VALIDATION.en.md) · [1.0.0 audit](AUDIT.en.md) · [GitHub release guide](GITHUB_RELEASE.en.md)
+[Русская версия](README.md) · [Validation](VALIDATION.en.md) · [1.0.0 audit](AUDIT.en.md)
 
 A Forge add-on for Minecraft 1.12.2 and Enigmatica 2: Expert 1.93a. It generates loot from mobs stored in Ender IO Soul Vials without spawning live mobs nearby. Retrieve the loot from the machine or through Forge item handlers.
 
