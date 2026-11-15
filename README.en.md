@@ -49,4 +49,4 @@ Supply `-JavaHome`, `-GradleHome` and `-E2E` for other locations. `-E2E` points 
 
 ## Credits
 
-Special thanks to **@Danzalex-Alex** for shaping the original idea and contributing to its implementation. See the [release notes](RELEASE_NOTES.md).
+Special thanks to [@Danzalex-Alex](https://github.com/Danzalex-Alex) for shaping the original idea and contributing to its implementation. See the [release notes](RELEASE_NOTES.md).
