@@ -9,6 +9,5 @@
 
 ## Как указать помощника
 
-- Для **OpenAI Codex** оставьте текстовую строку о вкладе в README и описание релиза. Готовая формулировка уже добавлена на обоих языках. Для неё не требуется GitHub-аккаунт.
-- Для **человека с GitHub-аккаунтом** напишите в описании релиза, чем он помог, и укажите его реальный `@username`. GitHub добавит упомянутого пользователя в раздел **Contributors**. [Документация GitHub о релизах](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
-- Если человек действительно соавтор конкретного коммита, укажите его в конце сообщения об этом коммите через `Co-authored-by: Имя <email>`. Чтобы GitHub связал авторство с профилем, адрес должен принадлежать этому аккаунту. Для Codex используйте текстовую отметку о помощи. [Документация GitHub о соавторстве](https://docs.github.com/en/pull-requests/how-tos/commit-changes/creating-a-commit-with-multiple-authors)
+- Сохраните упоминание `@Danzalex-Alex` и благодарность за вклад в идею и реализацию при переносе заметок в описание релиза. [Документация GitHub о релизах](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+- Для соавторства в конкретном коммите используйте `Co-authored-by: Имя <email>` с адресом, привязанным к аккаунту соавтора. [Документация GitHub о соавторстве](https://docs.github.com/en/pull-requests/how-tos/commit-changes/creating-a-commit-with-multiple-authors)

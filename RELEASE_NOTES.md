@@ -10,9 +10,7 @@ Forge-аддон для Minecraft 1.12.2 и Enigmatica 2: Expert 1.93a. Четы
 
 Для установки замените предыдущий JAR в `mods` на `advancedvirtualspawners-1.1.0.jar`. Сведения о работе и проверках находятся в `README.md` и `VALIDATION.md` репозитория. `AUDIT.md` сохраняет результаты аудита версии 1.0.0.
 
-**Особая благодарность — ИМЯ_ИЛИ_НИК.** Спасибо за идеи, обсуждение механик и вдохновение, с которого начался проект.
-
-**Помощь в разработке — OpenAI Codex.** Идеи, реализация, тестирование и документация.
+**Особая благодарность @Danzalex-Alex** за вклад в идею и реализацию проекта и за вдохновение, с которого всё началось.
 
 ## English
 
@@ -24,6 +22,4 @@ Compatibility with AE2 Expert 3.0.0 was verified on a dedicated E2E server. Expe
 
 Replace the previous JAR in `mods` with `advancedvirtualspawners-1.1.0.jar`. The repository files `README.en.md` and `VALIDATION.en.md` describe gameplay and test coverage. `AUDIT.en.md` preserves the 1.0.0 audit findings.
 
-**Special thanks to NAME_OR_HANDLE** for contributing ideas, helping shape the mechanics and inspiring the project.
-
-**Development assistance — OpenAI Codex.** Feature ideas, implementation, testing and documentation.
+**Special thanks to @Danzalex-Alex** for shaping the original idea, contributing to its implementation, and inspiring the project.

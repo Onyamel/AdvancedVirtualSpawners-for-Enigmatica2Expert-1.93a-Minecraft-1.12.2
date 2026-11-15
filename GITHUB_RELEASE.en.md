@@ -9,6 +9,5 @@
 
 ## Crediting assistance
 
-- Credit **OpenAI Codex** in plain text in the README and release notes. Both languages already include a credit for ideas, implementation, testing and documentation. This credit needs no GitHub account.
-- For a **human with a GitHub account**, describe their contribution and mention their real `@username` in the release description. GitHub adds mentioned users to the release's **Contributors** section. [GitHub release documentation](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
-- For someone who co-authored a specific commit, add `Co-authored-by: Name <email>` to that commit's message. GitHub links the attribution when the address belongs to their account. Use the plain-text assistance credit for Codex. [GitHub commit co-authorship documentation](https://docs.github.com/en/pull-requests/how-tos/commit-changes/creating-a-commit-with-multiple-authors)
+- Keep the `@Danzalex-Alex` mention and credit for the idea and implementation when pasting the release notes. [GitHub release documentation](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
+- For a specific co-authored commit, add `Co-authored-by: Name <email>` to the commit message using an address associated with the co-author's account. [GitHub commit co-authorship documentation](https://docs.github.com/en/pull-requests/how-tos/commit-changes/creating-a-commit-with-multiple-authors)
