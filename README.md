@@ -55,4 +55,4 @@ Forge-аддон для Minecraft 1.12.2 и Enigmatica 2: Expert 1.93a. Обра
 
 ## Вклад
 
-Особая благодарность **@Danzalex-Alex** за вклад в идею и реализацию проекта. См. [заметки к релизу](RELEASE_NOTES.md).
+Особая благодарность [@Danzalex-Alex](https://github.com/Danzalex-Alex) за вклад в идею и реализацию проекта. См. [заметки к релизу](RELEASE_NOTES.md).
